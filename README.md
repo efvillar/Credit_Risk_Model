@@ -13,3 +13,4 @@ Las variables de entrada al modelo son:
 
 ## VARIABLES DE SALIDA
 
+*1. Probability of Default (PD):*  Se empleará un modelo de regresión logistica para la estimación de la probabilidad de incumplimiento de un deudor, dados los datos de entrada al modelo.
