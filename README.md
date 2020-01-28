@@ -27,4 +27,18 @@ Será el producto PE = LGD * EAD
 
 **5. Pérdida esperada Portafolio de Créditos (PEPC):**
 Es la sumatoria de las pérdidas esperadas de todos los clientes, asumiendo independencia.  Posteriormente con mayor cantidad de datos se podría eliminar el supuesto de independencia.
-$sum PEC
+
+**6. Assesing Population Stability (APS):**
+Indicador para realizar monitoreo de la necesidad de reentrenar los modelos de crédito, debido al cambio en la distribución de probabilidad de los datos de entrada
+
+**7. Modelo de Credit Allocation:**
+Se usará el criterio de máximización de riqueza pero de modo fraccional.  Fractional Kelly Criterion.
+
+**8. Modelo de Pricing del Crédito:**
+El precio del crédito debe ser una función de la perdida esperada y el nivel de precios del dinero en la economía
+
+
+## DEPLOYMENT
+
+
+
