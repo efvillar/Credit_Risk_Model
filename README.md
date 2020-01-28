@@ -22,5 +22,9 @@ Modelo combinado en donde inicialmente se estimará un modelo para determinar si
 **3. Exposure at Default (EAD):**
 Este modelo estimará el saldo de la deuda en el momento del default.
 
-**4.  Pérdida esperada por Crédito:**
+**4.  Pérdida Esperada por Crédito (PEC):**
 Será el producto PE = LGD * EAD
+
+**5. Pérdida esperada Portafolio de Créditos (PEPC):**
+Es la sumatoria de las pérdidas esperadas de todos los clientes, asumiendo independencia.  Posteriormente con mayor cantidad de datos se podría eliminar el supuesto de independencia.
+\sum\PEC
