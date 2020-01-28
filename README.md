@@ -44,7 +44,13 @@ La implementación será en Python y se realizará el deployment via un webservi
 
 El entrenamiento de los modelos se realziará cada N meses de acuerdo con el indicador APS.   Los modelos a entrenar se exportarán a un servidor para que consuman los datos que sean enviador por la entidad que requiere los cálculos.  Se deberá establecer un protocolo de intercambio de datos para recibir los inputs del modelo y entrear los outputs.
 
-Inicialmente de las 8 medidas el servicio calculará las numero 1, 2, 3, 4, 6, 7, y 8.  La número 5 (PEPC) se puede calcular directamente por parte de la entidad préstamista.
+Inicialmente de las 8 medidas el servicio calculará las numero 1, 2, 3, 4, 6, 7, y 8.  La número 5 (PEPC) se puede calcular directamente por parte de la entidad prestamista.
+
+Este diseño modular permite la actualización del modelo de riesgo sin afectar la operación del prestamista.
+
+## DIAGRAMA SIMPLIFICADO DE LA OPERACIÓN
+
+![Diagrama Simplificado Operacion](/image/Esquema.PNG)
 
 
 
