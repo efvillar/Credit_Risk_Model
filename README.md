@@ -50,7 +50,7 @@ Este diseño modular permite la actualización del modelo de riesgo sin afectar 
 
 ## DIAGRAMA SIMPLIFICADO DE LA OPERACIÓN
 
-![Diagrama Simplificado Operacion](/image/Esquema.PNG)
+![Diagrama Simplificado Operacion](/Esquema.PNG)
 
 
 
